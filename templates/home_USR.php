@@ -1,7 +1,7 @@
 
 
 
-{% extends "template_menu_USR.php" %}
+{% extends "menu_USR.php" %}
 
 
 {% block body %}

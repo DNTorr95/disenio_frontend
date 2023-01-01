@@ -1,5 +1,5 @@
 
-{% extends "template_home.php" %}
+{% extends "menu_ANT.php" %}
 {% block menu %}
 
                 <li class="nav-item">

@@ -77,7 +77,7 @@ def request_home_credit():
 def login():
     name = request.form.get('nombre')
     password = request.form.get('contrasenia')
-    tipo = 'USR' # editar para redireccionar // EJC, // ANT, // USR
+    tipo = 'EJC' # editar para redireccionar // EJC, // ANT, // USR
     return redirect(url_for(f'home_{tipo}'))
 
 
@@ -98,5 +98,29 @@ def home_USR():
 def gestionar_mis_cuentas():
     return render_template('mi_accounts.php')
   
+
+#--------------------------------------------------------------------------------------------------------------------------------
+# gestionar creditos vehiculares
+@app.route('/gestionar_creditos_vehiculares')
+def manage_vehicle_credits():
+    return render_template('manage_vehicle_credits.php')
+
+
+#--------------------------------------------------------------------------------------------------------------------------------
+#Visualizar bitacora
+@app.route('/visualizar_bitacora')
+def view_log():
+    return render_template('view_log.php')
+  
+
+
+
+
+
+
+
+
+
+
 
 

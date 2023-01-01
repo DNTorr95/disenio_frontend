@@ -54,7 +54,7 @@
               <img src="static/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-              <a href="/home" class="d-block">Administrador</a>
+              <a class="d-block">Administrador</a>
             </div>
           </div>
     
@@ -70,7 +70,7 @@
                   {% endblock %}
                   
                   <li class="nav-item">
-                    <a href="/" class="nav-link">
+                    <a href="/logout" class="nav-link">
                       <i class="fas fa-door-open nav-icon"></i>
                       <p>
                         Salir

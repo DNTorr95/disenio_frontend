@@ -5,7 +5,7 @@
 <div class="content-wrapper">
     <section class="content">
 
-        <h1>MIS DATOS:</h1>
+        <h1>Bitaroca</h1>
         
     </seccion>
 </div>
