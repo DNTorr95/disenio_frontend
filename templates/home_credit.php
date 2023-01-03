@@ -21,7 +21,7 @@
         </section>
         <!-- Main content -->
         <!-- Default box -->
-        <a href="/"><button>VOLVER</button></a>
+     
         <div>
             <div class="card-body row">
                 <div class="col-5 text-center d-flex align-items-center justify-content-center">
@@ -67,15 +67,15 @@
                         {% endwith %}
                         <div class="form-group">
                             <label for="">Nombre</label>
-                            <input type="text" id="nombrev" name="nombre" class="form-control" placeholder="Nombre Completo" style="width: 450px;" />
+                            <input type="text" id="nombreh" name="nombre" class="form-control" placeholder="Nombre Completo" style="width: 450px;" />
                         </div>
                         <div class="form-group">
                             <label for="">E-Mail</label>
-                            <input type="email" id="correov" name="correo" class="form-control" placeholder="Correo Electronico" style="width: 450px;" />
+                            <input type="email" id="correoh" name="correo" class="form-control" placeholder="Correo Electronico" style="width: 450px;" />
                         </div>
                         <div class="form-group">
                             <label for="">Ubicación de vivienda</label>
-                            <input type="text" id="ubicacionv" name="ubicacion" class="form-control" placeholder="dirección" style="width: 450px;" />
+                            <input type="text" id="ubicacionh" name="ubicacion" class="form-control" placeholder="dirección" style="width: 450px;" />
                         </div>
                         <div class="row">
                             <div class="col-sm-3">
@@ -87,13 +87,13 @@
                             <div class="col-sm-3">
                                 <div class="form-group">
                                     <label for="">Celular</label>
-                                    <input id="celularv" name="celular" class="form-control" placeholder="Numero de telefono" style="width: 150px;"></input>
+                                    <input id="celularh" name="celular" class="form-control" placeholder="Numero de telefono" style="width: 150px;"></input>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-group">
                                     <label for="">Edad</label>
-                                    <input id="edadv" name="edad" class="form-control" placeholder="Edad" style="width: 80px;"></input>
+                                    <input id="edadh" name="edad" class="form-control" placeholder="Edad" style="width: 80px;"></input>
                                 </div>
                             </div>
                         </div>
@@ -101,19 +101,19 @@
                             <div class="col-sm-3">
                                 <div class="form-group">
                                     <label for="">Ingresos Mensuales</label>
-                                    <input id="ingresov" name="ingreso" class="form-control" style="width: 150px;" placeholder="Tus ingresos"></input>
+                                    <input id="ingresoh" name="ingreso" class="form-control" style="width: 150px;" placeholder="Tus ingresos"></input>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-group">
                                     <label for="">Monto a Solicitar</label>
-                                    <input id="montov" name="monto" class="form-control" style="width: 150px;" placeholder="Tu monto a solicitar"></input>
+                                    <input id="montoh" name="monto" class="form-control" style="width: 150px;" placeholder="Tu monto a solicitar"></input>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-group" >
                                     <label for="">Plazo</label>
-                                    <input id="plazov" name="plazo" class="form-control" style="width: 150px;"></input>
+                                    <input id="plazoh" name="plazo" class="form-control" style="width: 150px;"></input>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                         <button class="btn btn-primary" type="submit">SOLICITAR</button>
                             
                     </form>
-                 
+                    <a href="/"><button class="btn btn-danger" style="margin-left: 200px; margin-top: -66px;">CANCELAR</button></a>
                 </div>
             </div>
          

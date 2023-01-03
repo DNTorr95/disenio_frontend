@@ -28,7 +28,7 @@
 
 
         <!-- Default box -->
-        <a href="/"><button>VOLVER</button></a>
+       
         <div>
             <div class="card-body row">
                 <div class="col-5 text-center d-flex align-items-center justify-content-center">
@@ -94,13 +94,13 @@
                             <div class="col-sm-3">
                                 <div class="form-group">
                                     <label for="">Celular</label>
-                                    <input id="inputSubject" name="celular" class="form-control" placeholder="Numero de telefono" style="width: 150px;"></input>
+                                    <input id="" name="celular" class="form-control" placeholder="Numero de telefono" style="width: 150px;"></input>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-group">
                                     <label for="">Edad</label>
-                                    <input id="inputSubject" name="edad" class="form-control" placeholder="Edad" style="width: 80px;"></input>
+                                    <input id="" name="edad" class="form-control" placeholder="Edad" style="width: 80px;"></input>
                                 </div>
                             </div>
                         </div>
@@ -110,21 +110,21 @@
                         <div class="row">
                             <div class="col-sm-3">
                                 <div class="form-group">
-                                    <label for="inputSubject">Ingresos Mensuales</label>
-                                    <input id="inputSubject" name="ingresos" class="form-control" style="width: 150px;"></input>
+                                    <label for="">Ingresos Mensuales</label>
+                                    <input id="ingm" name="ingresos" class="form-control" style="width: 150px;"></input>
                                 </div>
                             </div>
 
                             <div class="col-sm-3">
                                 <div class="form-group">
-                                    <label for="inputSubject">Monto a Solicitar</label>
-                                    <input id="inputSubject" name="monto" class="form-control" style="width: 150px;"></input>
+                                    <label for="">Monto a Solicitar</label>
+                                    <input id="montos" name="monto" class="form-control" style="width: 150px;"></input>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-group">
-                                    <label for="inputSubject">Plazo</label>
-                                    <input id="inputSubject" name="plazo" class="form-control" style="width: 150px;"></input>
+                                    <label for="">Plazo</label>
+                                    <input id="plaz" name="plazo" class="form-control" style="width: 150px;"></input>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                         
                         <button class="btn btn-primary" type="submit">SOLICITAR</button>
                     </form>
-
+                    <a href="/"><button class="btn btn-danger" style="margin-left: 200px; margin-top: -66px;">CANCELAR</button></a>
                 </div>
             </div>
 

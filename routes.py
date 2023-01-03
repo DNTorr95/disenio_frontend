@@ -77,7 +77,7 @@ def request_home_credit():
 def login():
     name = request.form.get('nombre')
     password = request.form.get('contrasenia')
-    tipo = 'EJC' # editar para redireccionar // EJC, // ANT, // USR
+    tipo = 'ANT' # editar para redireccionar // EJC, // ANT, // USR
     return redirect(url_for(f'home_{tipo}'))
 
 
@@ -87,6 +87,11 @@ def login():
 def home_EJC():
     return render_template('home_EJC.php')
   
+#--------------------------------------------------------------------------------------------------------------------------------
+
+@app.route('/home_analista')
+def home_ANT():
+    return render_template('home_ANT.php')  
 #--------------------------------------------------------------------------------------------------------------------------------
 
 @app.route('/home_usuario')

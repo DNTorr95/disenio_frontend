@@ -2,8 +2,8 @@
 {% extends "menu_EJC.php" %}
 
 {% block body %}
-<div class="content-wrapper">
-  <section class="content">
+<div class="content-wrapper"  >
+  <section class="content-wrapper" style="margin-bottom: 2px; margin-left: -150px; margin-right: -150px;">
     <h4>Lista de cuentas vehiculares</h4>
     <table id="DataTable" class="table table-bordered table-striped">
         <thead>
@@ -18,7 +18,7 @@
           <th>Moneda</th>
           
           
-          gestionar_cuenta
+     
     
           <td>
             <center><a href="/nueva_cuenta"><button class="btn btn-primary">Nuevo</button></a></center>

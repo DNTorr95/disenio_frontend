@@ -3,7 +3,7 @@
 {% block menu %}
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/home_analista" class="nav-link">
                       <i class="nav-icon fas fa-user"></i>
                       <p>
                         POSTULANTES
