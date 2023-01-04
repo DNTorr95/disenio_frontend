@@ -99,6 +99,27 @@ def home_USR():
     return render_template('home_USR.php')
 #--------------------------------------------------------------------------------------------------------------------------------
 
+
+
+@app.route('/notas_vivienda')
+def notas_vivienda():
+    return render_template('notascvivienda.php')
+#--------------------------------------------------------------------------------------------------------------------------------
+@app.route('/notas_consumo')
+def notas_consumo():
+    return render_template('notascconsumo.php')
+#--------------------------------------------------------------------------------------------------------------------------------
+@app.route('/notas_vehicular')
+def notas_vehicular():
+    return render_template('notascvivienda.php')
+#--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 @app.route('/gestionar_mis_cuentas')
 def gestionar_mis_cuentas():
     return render_template('mi_accounts.php')
