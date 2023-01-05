@@ -77,7 +77,7 @@ def request_home_credit():
 def login():
     name = request.form.get('nombre')
     password = request.form.get('contrasenia')
-    tipo = 'ANT' # editar para redireccionar // EJC, // ANT, // USR
+    tipo = 'EJC' # editar para redireccionar // EJC, // ANT, // USR
     return redirect(url_for(f'home_{tipo}'))
 
 
