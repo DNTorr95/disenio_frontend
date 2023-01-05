@@ -39,7 +39,7 @@
       
     
       <!-- Main Sidebar Container -->
-      <aside class="main-sidebar sidebar-dark-primary elevation-4" style="height: 380%;">
+      <aside class="main-sidebar sidebar-dark-primary elevation-4" style="height: auto;">
         <!-- Brand Logo -->
         <a class="brand-link">
           <img src="static/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">

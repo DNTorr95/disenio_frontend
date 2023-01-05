@@ -6,20 +6,46 @@
 
 {% block body %}
 <div class="content-wrapper"  >
-  <section class="content-wrapper" style="margin-bottom: 2px; margin-left: -150px; margin-right: -150px;">
-    <h1>DATOS PERSONALES</h1>
-    <table id="" class="table table-bordered table-striped">
-        <thead>
-        <tr>
-          <th>Nombre</th>
-          <th>CI</th>
-          <th>Correo</th>
-          <th>Dirección</th>
-          <th>Celular</th>
-          <th>Saldo</th>
-        </tr>
-        </thead>
-        </table>
+  <section class="content">
+  <center>
+  <h4>DATOS PERSONALES</h4>
+  </center>  
+ 
+ 
+    <center>
+        <form action="/" id="" method="post">
+            
+            <div class="form-group">
+              <label for="">Nombre</label>
+              <input type="text" class="form-control" id="" name="edad_max" style="width : 200px;" value=" "readonly>
+          
+            </div>
+
+            <div class="form-group">
+              <label for="">CI</label>
+              <input type="text" class="form-control" id="" name="ingreso" style="width : 200px;" value=" "readonly>
+             
+            </div>
+
+          
+
+            <div class="form-group">
+              <label for="">Correo</label>
+              <input type="text" class="form-control" id="" name="plazo" style="width : 200px;" value=" " readonly>
+   
+            </div>
+
+            
+            <div class="form-group">
+              <label for="">Celular</label>
+              <input type="text" class="form-control" id="" name="monto" style="width : 200px;" value=" "readonly>
+ 
+            </div>
+           
+ 
+        </form>
+      
+    </center>
   </section>
 </div>
 {% endblock %}
